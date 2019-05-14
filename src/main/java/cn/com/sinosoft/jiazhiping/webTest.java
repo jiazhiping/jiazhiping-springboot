@@ -26,6 +26,8 @@ public class webTest {
     public String index(){
         System.out.println(environment.getProperty("name"));
         System.out.println(environment.getProperty("url"));
+
+
         return "Hello Spring Boot";
     }
 
